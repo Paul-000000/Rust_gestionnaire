@@ -1,0 +1,23 @@
+[package]
+name = "gestionnaire_core"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+argon2 = "0.5"
+aes-gcm = "0.10"
+hmac = "0.13.0"
+sha2 = "0.11.0"
+subtle = "2.6.1"
+rand = "0.10.1"
+rand_chacha = "0.10.0"
+memguard-rs = "0.1"
+zeroize = { version = "1.7", features = ["derive", "serde"] }
+secrecy = "0.10.3"
+file_shred = "1.2.1"
+hex = "0.4"
+base64 = "0.22"
+
+serde = { version = "1.0", features = ["derive"] }
+bincode = { version = "2.0.0-rc.3", features = ["derive", "serde"] }
+zxcvbn = "3.1.0"

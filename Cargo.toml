@@ -1,0 +1,12 @@
+[workspace]
+members = [
+    "gestionnaire_core",
+    "gestionnaire_cli",
+    "gestionnaire_gui",
+]
+resolver = "2"
+
+[profile.release]
+strip = true      # Enlève les symboles de debug
+opt-level = "z"   # Optimise pour la taille (utile pour Android)
+lto = true        # Link Time Optimization pour de meilleures performances
