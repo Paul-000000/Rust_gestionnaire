@@ -44,24 +44,24 @@ Le projet est divisé en plusieurs modules complémentaires :
 
 ## Compilation et Exécution
 
-### 1. Interface en ligne de commande (CLI)
-Pour lancer la version terminal :
-```bash
-cargo run -p gestionnaire_cli
-```
-
-### 2. Interface Graphique (GUI)
-Pour lancer la version graphique :
-```bash
-cargo run -p gestionnaire_gui
-```
-
-### 3. Compilation
+### Compilation
 Pour générer les binaires optimisés :
 ```bash
 cargo build --release
 ```
 Les exécutables se trouveront dans le dossier `target/release/`.
+
+### Interface en ligne de commande (CLI)
+Pour lancer la version terminal :
+```bash
+cargo run -p gestionnaire_cli
+```
+
+### Interface Graphique (GUI)
+Pour lancer la version graphique :
+```bash
+cargo run -p gestionnaire_gui
+```
 
 ---
 
